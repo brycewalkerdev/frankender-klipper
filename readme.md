@@ -8,6 +8,7 @@ without touching other system files or the separate `klipper`, `moonraker`, or `
 ## Modifications
 - 235 x 230 x 245 Bed
 - BlTouch V3.1 (28, -25) Offset
+- Note that BLTouch is plugged into PC2 and likes 5v, online configs will not work
 - SKR Mini E3 V2
 - E3D V6 Hotend
 - BMG Extruder (1400 mA)

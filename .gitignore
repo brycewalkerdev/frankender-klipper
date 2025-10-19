@@ -1,0 +1,31 @@
+cat > "$HOME/.gitignore" <<'EOF'
+# Ignore everything by default
+/*
+
+fluidd-config/
+
+# Allow this .gitignore itself
+!.gitignore
+
+# Whitelist only the paths we want to version:
+!printer_data/
+printer_data/*
+!printer_data/config/
+!printer_data/config/**
+
+!fluidd-config/
+!fluidd-config/**
+
+!klipper-kconfigs/
+!klipper-kconfigs/**
+
+# (Optional) prune noisy backups/binaries even inside whitelisted dirs
+*.bak
+*.bkp
+*.old
+*.zip
+*.tar.gz
+*.gz
+*.bin
+EOF
+
